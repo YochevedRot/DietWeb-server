@@ -6,12 +6,25 @@ using DietWeb.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+
+
 // Add services to the container.
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// *** הוסף את זה: הגדרת מדיניות CORS ***
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin",
+        builder => builder.AllowAnyOrigin()//WithOrigins("http://localhost:3000", "https://localhost:5173", "http://localhost:5173") // *** שנה לכתובת של הקליינט שלך! ***
+                         .AllowAnyHeader()
+                         .AllowAnyMethod());
+});
+
 
 
 builder.Services.AddScoped<IFoodRepository, FoodRepository>();
@@ -24,7 +37,6 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddDbContext<DataContext>();
 
 
-builder.Services.AddControllers();
 
 
 var app = builder.Build();
@@ -37,9 +49,11 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseCors("AllowAll");
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();
+
+
+
+

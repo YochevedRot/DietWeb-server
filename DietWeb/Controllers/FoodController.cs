@@ -20,6 +20,39 @@ public class FoodController : ControllerBase
         return Ok(foods);
     }
 
+
+    [HttpGet("search")]
+    public async Task<IActionResult> SearchFoodByName([FromQuery] string foodName)
+    {
+        if (string.IsNullOrWhiteSpace(foodName))
+        {
+            // אם שם המאכל ריק או null, נחזיר שגיאת בקשה לא חוקית
+            return BadRequest("Food name cannot be empty.");
+        }
+
+        // לוגיקת החיפוש:
+        // נניח שלשירות ה-IFoodService יש מתודה בשם GetFoodByNameAsync
+        // שיכולה לחפש מאכלים לפי שם.
+        // המתודה הזו יכולה להחזיר:
+        // 1. DietWeb.Core.Models.Food (אם מצפים למאכל בודד)
+        // 2. IEnumerable<DietWeb.Core.Models.Food> או List<DietWeb.Core.Models.Food> (אם מצפים לרשימה של מאכלים תואמים)
+
+        // אם מצפים למאכל בודד שמתאים לשם:
+        // var food = await _foodService.GetFoodByNameAsync(foodName);
+        // if (food == null)
+        // {
+        //     return NotFound($"Food '{foodName}' not found.");
+        // }
+        // return Ok(food);
+
+        // או, אם מצפים לרשימה של מאכלים (וזה יותר סביר לפונקציית "חיפוש"):
+        var foods = await _foodService.GetFoodByNameAsync(foodName); // כאן נניח שזו מתודה שמחזירה IEnumerable/List
+        if (foods == null || !foods.Any()) // בדוק אם הרשימה ריקה או null
+        {
+            return NotFound($"No food found matching '{foodName}'.");
+        }
+        return Ok(foods);
+    }
     [HttpGet("{id}")]
     public async Task<IActionResult> GetById(int id)
     {
@@ -48,4 +81,6 @@ public class FoodController : ControllerBase
         await _foodService.DeleteAsync(id);
         return NoContent();
     }
+   
 }
+

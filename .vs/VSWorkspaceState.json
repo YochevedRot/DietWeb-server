@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\DietWeb",
+    "\\DietWeb.Data",
+    "\\DietWeb.Data\\Migrations",
+    "\\DietWeb\\Controllers",
+    "\\DietWeb\\Properties"
+  ],
+  "SelectedNode": "\\DietWeb\\Controllers\\FoodController.cs",
+  "PreviewInSolutionExplorer": false
+}
