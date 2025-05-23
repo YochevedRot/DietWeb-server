@@ -17,6 +17,17 @@ namespace DietWeb.Data.Repositories
 
         public async Task<IEnumerable<Food>> GetAllAsync() => await _context.Foods.ToListAsync();
 
+        public async Task<Food> GetFoodByNameAsync(string foodName)
+        {
+            var food = await _context.Foods.FirstOrDefaultAsync(f => f.Name == foodName);
+            return food;
+        }
+        public async Task<Food> GetFoodByNameAsync2(string foodName) // <--- ודא שזו קיימת כאן
+        {
+            var food = await _context.Foods.FirstOrDefaultAsync(f => f.Name == foodName);
+            return food;
+         }
+
         public async Task<Food?> GetByIdAsync(int id) => await _context.Foods.FindAsync(id);
 
         public async Task<Food> AddAsync(Food food)

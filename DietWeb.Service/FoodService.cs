@@ -17,6 +17,22 @@ namespace DietWeb.Service
 
         public Task<IEnumerable<Food>> GetAllAsync() => _repository.GetAllAsync();
 
+
+        public async Task<Food> GetFoodByNameAsync(string foodName) // חייב להיות async Task<Food>
+        {
+            var food = await _repository.GetFoodByNameAsync(foodName);
+
+            if (food == null)
+            {
+                // חשוב לטפל במקרה שלא נמצא מזון
+                throw new KeyNotFoundException($"Food '{foodName}' not found.");
+            }
+
+            return food;
+        }
+
+
+
         public Task<Food?> GetByIdAsync(int id) => _repository.GetByIdAsync(id);
 
         public Task<Food> AddAsync(Food food) => _repository.AddAsync(food);

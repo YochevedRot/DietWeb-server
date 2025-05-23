@@ -10,7 +10,7 @@ namespace DietWeb.Core.Services
         Task<Food> AddAsync(Food food);
         Task UpdateAsync(Food food);
         Task DeleteAsync(int id);
-        Task GetFoodByNameAsync(string foodName);
+        Task<Food> GetFoodByNameAsync(string foodName);
     }
 
 }

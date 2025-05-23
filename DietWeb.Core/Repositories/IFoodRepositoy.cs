@@ -9,6 +9,7 @@ namespace DietWeb.Core.Repositories
         Task<Food> AddAsync(Food food);
         Task UpdateAsync(Food food);
         Task DeleteAsync(int id);
+        Task<Food> GetFoodByNameAsync(string foodName);
     }
 
 }
