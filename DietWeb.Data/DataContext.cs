@@ -18,9 +18,10 @@ namespace DietWeb.Data
             optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=_db");
         }
 
-        internal async Task SaveChangesAsync()
+       /* internal async Task SaveChangesAsync()
         {
             throw new NotImplementedException();
         }
+       */
     }
 }
