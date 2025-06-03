@@ -10,12 +10,14 @@ namespace DietWeb.Data
         public DbSet<Food> Foods { get; set; }
         public DbSet<Recipe> Recipes { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<ConversationMessage> Messages { get; set; }
+
 
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=_db");
+            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=diet_db");
         }
 
        /* internal async Task SaveChangesAsync()

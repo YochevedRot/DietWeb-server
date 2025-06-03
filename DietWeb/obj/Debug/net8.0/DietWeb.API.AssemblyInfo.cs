@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("d33c16e3-af74-49fd-be94-5a2e3f7bc44a")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("DietWeb.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+531123ea6d4134951a2c15d52d3fb30d521f23a3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2aba9c0627c597a7b54dafdb827445bc30960756")]
 [assembly: System.Reflection.AssemblyProductAttribute("DietWeb.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DietWeb.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

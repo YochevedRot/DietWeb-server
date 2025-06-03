@@ -95,6 +95,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "PersonalTrainerController",
+    "Method": "AskTrainer",
+    "RelativePath": "api/PersonalTrainer/ask",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DietWeb.Core.Models.TrainerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "RecipeController",
     "Method": "GetAll",
     "RelativePath": "api/Recipe",

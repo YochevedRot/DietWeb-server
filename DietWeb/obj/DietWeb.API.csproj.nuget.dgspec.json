@@ -49,6 +49,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "OpenAIApi": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -140,6 +146,10 @@
             "Microsoft.SqlServer.Server": {
               "target": "Package",
               "version": "[1.0.0, )"
+            },
+            "OpenAIApi": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             }
           },
           "imports": [
@@ -192,6 +202,9 @@
             "projectReferences": {
               "C:\\Users\\משתמש\\Desktop\\DietWeb-server-main\\DietWeb-server\\DietWeb.Core\\DietWeb.Core.csproj": {
                 "projectPath": "C:\\Users\\משתמש\\Desktop\\DietWeb-server-main\\DietWeb-server\\DietWeb.Core\\DietWeb.Core.csproj"
+              },
+              "C:\\Users\\משתמש\\Desktop\\DietWeb-server-main\\DietWeb-server\\DietWeb.Data\\DietWeb.Data.csproj": {
+                "projectPath": "C:\\Users\\משתמש\\Desktop\\DietWeb-server-main\\DietWeb-server\\DietWeb.Data\\DietWeb.Data.csproj"
               }
             }
           }
@@ -211,6 +224,24 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Graph": {
+              "target": "Package",
+              "version": "[5.79.0, )"
+            },
+            "OpenAI-DotNet": {
+              "target": "Package",
+              "version": "[8.6.4, )"
+            },
+            "OpenAIApi": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -306,6 +337,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.4, )"
+            },
+            "OpenAIApi": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

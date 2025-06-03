@@ -30,3 +30,5 @@ C:\Users\משתמש\Desktop\DietWeb-server-main\DietWeb-server\DietWeb.Service\o
 C:\Users\משתמש\Desktop\DietWeb-server-main\DietWeb-server\DietWeb.Service\obj\Debug\net8.0\refint\DietWeb.Service.dll
 C:\Users\משתמש\Desktop\DietWeb-server-main\DietWeb-server\DietWeb.Service\obj\Debug\net8.0\DietWeb.Service.pdb
 C:\Users\משתמש\Desktop\DietWeb-server-main\DietWeb-server\DietWeb.Service\obj\Debug\net8.0\ref\DietWeb.Service.dll
+C:\Users\משתמש\Desktop\DietWeb-server-main\DietWeb-server\DietWeb.Service\bin\Debug\net8.0\DietWeb.Data.dll
+C:\Users\משתמש\Desktop\DietWeb-server-main\DietWeb-server\DietWeb.Service\bin\Debug\net8.0\DietWeb.Data.pdb

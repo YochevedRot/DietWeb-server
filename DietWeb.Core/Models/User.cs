@@ -20,8 +20,8 @@ namespace DietWeb.Core.Models
         public float GoalWeight { get; set; }
         public DateTime GoalDate { get; set; }
         public DateTime StartDate { get; set; }
-        public WeightTracing weightTracing { get; set; }
-        public DietaryPreference dietaryPreference { get; set; }
+        public WeightTracing weightTracing { get; set; } = new WeightTracing(); 
+        public DietaryPreference dietaryPreference { get; set; } = new DietaryPreference();
         public string ChatPersonality { get; set; } = "";
 
 
