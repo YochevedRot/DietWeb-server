@@ -34,6 +34,8 @@ builder.Services.AddScoped<IRecipeService, RecipeService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IPersonalTrainerService, PersonalTrainerService>();
+builder.Services.AddScoped<IConversationRepository, ConversationRepository>();
+
 
 
 //builder.Services.AddDbContext<DataContext>();

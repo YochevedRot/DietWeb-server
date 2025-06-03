@@ -17,22 +17,30 @@ namespace DietWeb.Service
     using OpenAI;
     using OpenAI.Chat;
     using Microsoft.EntityFrameworkCore;
+    using DietWeb.Core.Repositories;
 
     public class PersonalTrainerService : IPersonalTrainerService
     {
         private readonly OpenAIClient _client;
         private readonly DataContext _db;
 
-        public PersonalTrainerService(IConfiguration config, DataContext db)
-        {
-            Console.WriteLine(Environment.GetEnvironmentVariable("OPENAI_API_KEY"));
+        private readonly IConversationRepository _repo;
 
+        public PersonalTrainerService(IConfiguration config, DataContext db, IConversationRepository repo)
+        {
             var apiKey = Environment.GetEnvironmentVariable("OPENAI_API_KEY")
-                     ?? config["OpenAI:ApiKey"];
+                         ?? config["OpenAI:ApiKey"];
 
             _client = new OpenAIClient(new OpenAIAuthentication(apiKey));
             _db = db;
+            _repo = repo;
         }
+
+        public async Task<List<ConversationMessage>> GetConversationHistoryAsync(string userId)
+        {
+            return await _repo.GetMessagesByUserAsync(userId);
+        }
+
         public async Task<string> GetTrainerResponseAsync(string personality, string input, string userId)
         {
             // Save user message
@@ -82,6 +90,7 @@ namespace DietWeb.Service
 
             return reply;
         }
+
     }
 
 

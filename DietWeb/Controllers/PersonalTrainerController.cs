@@ -1,5 +1,6 @@
 ﻿using DietWeb.Core.Models;
 using DietWeb.Core.Services;
+using DietWeb.Data;
 using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
@@ -8,10 +9,7 @@ public class PersonalTrainerController : ControllerBase
 {
     private readonly IPersonalTrainerService _trainerService;
 
-    public PersonalTrainerController(IPersonalTrainerService trainerService)
-    {
-        _trainerService = trainerService;
-    }
+ 
 
     [HttpPost("ask")]
     public async Task<IActionResult> AskTrainer([FromBody] TrainerRequest request)
@@ -28,6 +26,34 @@ public class PersonalTrainerController : ControllerBase
 
         return Ok(new { answer = response });
     }
+
+    private readonly DataContext _context;
+
+    public PersonalTrainerController(IPersonalTrainerService trainerService, DataContext context)
+    {
+        _trainerService = trainerService;
+        _context = context;
+    }
+
+
+    [HttpGet("history/{userId}")]
+    public async Task<IActionResult> GetHistory(string userId)
+    {
+        if (string.IsNullOrWhiteSpace(userId))
+            return BadRequest("User ID is required.");
+
+        var history = await _trainerService.GetConversationHistoryAsync(userId);
+
+        var result = history.Select(m => new
+        {
+            m.Role,
+            m.Content,
+            m.Timestamp
+        });
+
+        return Ok(result);
+    }
+
 
 }
 
