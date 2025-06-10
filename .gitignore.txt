@@ -1,0 +1,15 @@
+# Visual Studio related files
+.vs/
+*.suo
+*.user
+
+# Binaries and object files
+[Bb]in/
+[Oo]bj/
+
+# Package files
+*.nupkg
+
+# Other temporary files
+*.tmp
+*.log

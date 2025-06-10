@@ -1,0 +1,620 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\DietWeb-server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97296DC2-93C1-4780-A581-540239DFF4FB}|DietWeb\\DietWeb.API.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97296DC2-93C1-4780-A581-540239DFF4FB}|DietWeb\\DietWeb.API.csproj|solutionrelative:dietweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6578DE8F-D559-4F96-A4F1-C971F0CDE60B}|DietWeb.Core\\DietWeb.Core.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.core\\dietweb.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6578DE8F-D559-4F96-A4F1-C971F0CDE60B}|DietWeb.Core\\DietWeb.Core.csproj|solutionrelative:dietweb.core\\dietweb.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97296DC2-93C1-4780-A581-540239DFF4FB}|DietWeb\\DietWeb.API.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb\\dietweb.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{97296DC2-93C1-4780-A581-540239DFF4FB}|DietWeb\\DietWeb.API.csproj|solutionrelative:dietweb\\dietweb.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6578DE8F-D559-4F96-A4F1-C971F0CDE60B}|DietWeb.Core\\DietWeb.Core.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.core\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6578DE8F-D559-4F96-A4F1-C971F0CDE60B}|DietWeb.Core\\DietWeb.Core.csproj|solutionrelative:dietweb.core\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6578DE8F-D559-4F96-A4F1-C971F0CDE60B}|DietWeb.Core\\DietWeb.Core.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.core\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6578DE8F-D559-4F96-A4F1-C971F0CDE60B}|DietWeb.Core\\DietWeb.Core.csproj|solutionrelative:dietweb.core\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97296DC2-93C1-4780-A581-540239DFF4FB}|DietWeb\\DietWeb.API.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97296DC2-93C1-4780-A581-540239DFF4FB}|DietWeb\\DietWeb.API.csproj|solutionrelative:dietweb\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692AA3-F908-4407-A699-3A27E92DB24E}|DietWeb.Service\\DietWeb.Service.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13692AA3-F908-4407-A699-3A27E92DB24E}|DietWeb.Service\\DietWeb.Service.csproj|solutionrelative:dietweb.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|solutionrelative:dietweb.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97296DC2-93C1-4780-A581-540239DFF4FB}|DietWeb\\DietWeb.API.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb\\dtos\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97296DC2-93C1-4780-A581-540239DFF4FB}|DietWeb\\DietWeb.API.csproj|solutionrelative:dietweb\\dtos\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97296DC2-93C1-4780-A581-540239DFF4FB}|DietWeb\\DietWeb.API.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97296DC2-93C1-4780-A581-540239DFF4FB}|DietWeb\\DietWeb.API.csproj|solutionrelative:dietweb\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6578DE8F-D559-4F96-A4F1-C971F0CDE60B}|DietWeb.Core\\DietWeb.Core.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6578DE8F-D559-4F96-A4F1-C971F0CDE60B}|DietWeb.Core\\DietWeb.Core.csproj|solutionrelative:dietweb.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97296DC2-93C1-4780-A581-540239DFF4FB}|DietWeb\\DietWeb.API.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97296DC2-93C1-4780-A581-540239DFF4FB}|DietWeb\\DietWeb.API.csproj|solutionrelative:dietweb\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97296DC2-93C1-4780-A581-540239DFF4FB}|DietWeb\\DietWeb.API.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{97296DC2-93C1-4780-A581-540239DFF4FB}|DietWeb\\DietWeb.API.csproj|solutionrelative:dietweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.data\\repositories\\foodrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|solutionrelative:dietweb.data\\repositories\\foodrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692AA3-F908-4407-A699-3A27E92DB24E}|DietWeb.Service\\DietWeb.Service.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13692AA3-F908-4407-A699-3A27E92DB24E}|DietWeb.Service\\DietWeb.Service.csproj|solutionrelative:dietweb.service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692AA3-F908-4407-A699-3A27E92DB24E}|DietWeb.Service\\DietWeb.Service.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.service\\dietweb.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{13692AA3-F908-4407-A699-3A27E92DB24E}|DietWeb.Service\\DietWeb.Service.csproj|solutionrelative:dietweb.service\\dietweb.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97296DC2-93C1-4780-A581-540239DFF4FB}|DietWeb\\DietWeb.API.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb\\dietweb.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{97296DC2-93C1-4780-A581-540239DFF4FB}|DietWeb\\DietWeb.API.csproj|solutionrelative:dietweb\\dietweb.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692AA3-F908-4407-A699-3A27E92DB24E}|DietWeb.Service\\DietWeb.Service.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.service\\foodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13692AA3-F908-4407-A699-3A27E92DB24E}|DietWeb.Service\\DietWeb.Service.csproj|solutionrelative:dietweb.service\\foodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6578DE8F-D559-4F96-A4F1-C971F0CDE60B}|DietWeb.Core\\DietWeb.Core.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.core\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6578DE8F-D559-4F96-A4F1-C971F0CDE60B}|DietWeb.Core\\DietWeb.Core.csproj|solutionrelative:dietweb.core\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97296DC2-93C1-4780-A581-540239DFF4FB}|DietWeb\\DietWeb.API.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb\\dietweb.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{97296DC2-93C1-4780-A581-540239DFF4FB}|DietWeb\\DietWeb.API.csproj|solutionrelative:dietweb\\dietweb.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|solutionrelative:dietweb.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.data\\dietweb.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|solutionrelative:dietweb.data\\dietweb.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6578DE8F-D559-4F96-A4F1-C971F0CDE60B}|DietWeb.Core\\DietWeb.Core.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.core\\repositories\\ifoodrepositoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6578DE8F-D559-4F96-A4F1-C971F0CDE60B}|DietWeb.Core\\DietWeb.Core.csproj|solutionrelative:dietweb.core\\repositories\\ifoodrepositoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6578DE8F-D559-4F96-A4F1-C971F0CDE60B}|DietWeb.Core\\DietWeb.Core.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.core\\services\\ifoodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6578DE8F-D559-4F96-A4F1-C971F0CDE60B}|DietWeb.Core\\DietWeb.Core.csproj|solutionrelative:dietweb.core\\services\\ifoodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.data\\migrations\\datacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|solutionrelative:dietweb.data\\migrations\\datacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.data\\migrations\\20250521103843_startdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|solutionrelative:dietweb.data\\migrations\\20250521103843_startdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6578DE8F-D559-4F96-A4F1-C971F0CDE60B}|DietWeb.Core\\DietWeb.Core.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.core\\models\\weighttracing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6578DE8F-D559-4F96-A4F1-C971F0CDE60B}|DietWeb.Core\\DietWeb.Core.csproj|solutionrelative:dietweb.core\\models\\weighttracing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6578DE8F-D559-4F96-A4F1-C971F0CDE60B}|DietWeb.Core\\DietWeb.Core.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.core\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6578DE8F-D559-4F96-A4F1-C971F0CDE60B}|DietWeb.Core\\DietWeb.Core.csproj|solutionrelative:dietweb.core\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6578DE8F-D559-4F96-A4F1-C971F0CDE60B}|DietWeb.Core\\DietWeb.Core.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.core\\models\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6578DE8F-D559-4F96-A4F1-C971F0CDE60B}|DietWeb.Core\\DietWeb.Core.csproj|solutionrelative:dietweb.core\\models\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.data\\migrations\\20250610125406_email3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|solutionrelative:dietweb.data\\migrations\\20250610125406_email3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.data\\migrations\\20250610124507_email2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|solutionrelative:dietweb.data\\migrations\\20250610124507_email2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.data\\migrations\\20250610123925_email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|solutionrelative:dietweb.data\\migrations\\20250610123925_email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.data\\migrations\\20250610121236_finalnullableuserconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|solutionrelative:dietweb.data\\migrations\\20250610121236_finalnullableuserconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.data\\migrations\\20250610120618_addquestionmarks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|solutionrelative:dietweb.data\\migrations\\20250610120618_addquestionmarks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.data\\migrations\\20250610115933_addquestionmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|solutionrelative:dietweb.data\\migrations\\20250610115933_addquestionmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|c:\\users\\user\\documents\\dietweb-server\\dietweb.data\\migrations\\20250610115316_addhashedpasswordcolumntouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4518DBDE-76FA-46E9-A2A2-FCE4BBBC62C0}|DietWeb.Data\\DietWeb.Data.csproj|solutionrelative:dietweb.data\\migrations\\20250610115316_addhashedpasswordcolumntouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Core\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "DietWeb.Core\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Core\\Services\\IUserService.cs",
+              "RelativeToolTip": "DietWeb.Core\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:46:42.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Service\\UserService.cs",
+              "RelativeDocumentMoniker": "DietWeb.Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Service\\UserService.cs",
+              "RelativeToolTip": "DietWeb.Service\\UserService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T23:09:16.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Core\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "DietWeb.Core\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Core\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "DietWeb.Core\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T09:48:48.821Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\Program.cs",
+              "RelativeDocumentMoniker": "DietWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\Program.cs",
+              "RelativeToolTip": "DietWeb\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T23:20:59.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DietWeb.http",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\DietWeb.http",
+              "RelativeDocumentMoniker": "DietWeb\\DietWeb.http",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\DietWeb.http",
+              "RelativeToolTip": "DietWeb\\DietWeb.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-10T08:25:53.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DietWeb.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Core\\DietWeb.Core.csproj",
+              "RelativeDocumentMoniker": "DietWeb.Core\\DietWeb.Core.csproj",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Core\\DietWeb.Core.csproj",
+              "RelativeToolTip": "DietWeb.Core\\DietWeb.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-22T23:17:26.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DietWeb.Data\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "DietWeb.Data\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwC4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T09:50:10.559Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "DietWeb\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\Controllers\\UserController.cs",
+              "RelativeToolTip": "DietWeb\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwDAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T08:26:43.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegisterRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\DTOs\\RegisterRequestDto.cs",
+              "RelativeDocumentMoniker": "DietWeb\\DTOs\\RegisterRequestDto.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\DTOs\\RegisterRequestDto.cs",
+              "RelativeToolTip": "DietWeb\\DTOs\\RegisterRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:03:33.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\DTOs\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "DietWeb\\DTOs\\LoginRequestDto.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\DTOs\\LoginRequestDto.cs",
+              "RelativeToolTip": "DietWeb\\DTOs\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:03:53.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Core\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DietWeb.Core\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Core\\Models\\User.cs",
+              "RelativeToolTip": "DietWeb.Core\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T09:01:34.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "DietWeb\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "DietWeb\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:14:28.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20250610125406_Email3.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\Migrations\\20250610125406_Email3.cs",
+              "RelativeDocumentMoniker": "DietWeb.Data\\Migrations\\20250610125406_Email3.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\Migrations\\20250610125406_Email3.cs",
+              "RelativeToolTip": "DietWeb.Data\\Migrations\\20250610125406_Email3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T12:54:06.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20250610124507_Email2.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\Migrations\\20250610124507_Email2.cs",
+              "RelativeDocumentMoniker": "DietWeb.Data\\Migrations\\20250610124507_Email2.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\Migrations\\20250610124507_Email2.cs",
+              "RelativeToolTip": "DietWeb.Data\\Migrations\\20250610124507_Email2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T12:45:07.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250610123925_Email.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\Migrations\\20250610123925_Email.cs",
+              "RelativeDocumentMoniker": "DietWeb.Data\\Migrations\\20250610123925_Email.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\Migrations\\20250610123925_Email.cs",
+              "RelativeToolTip": "DietWeb.Data\\Migrations\\20250610123925_Email.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T12:39:25.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "DietWeb\\appsettings.json",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\appsettings.json",
+              "RelativeToolTip": "DietWeb\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-22T23:20:31.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20250610121236_FinalNullableUserConfig.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\Migrations\\20250610121236_FinalNullableUserConfig.cs",
+              "RelativeDocumentMoniker": "DietWeb.Data\\Migrations\\20250610121236_FinalNullableUserConfig.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\Migrations\\20250610121236_FinalNullableUserConfig.cs",
+              "RelativeToolTip": "DietWeb.Data\\Migrations\\20250610121236_FinalNullableUserConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T12:12:36.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20250610120618_Addquestionmarks.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\Migrations\\20250610120618_Addquestionmarks.cs",
+              "RelativeDocumentMoniker": "DietWeb.Data\\Migrations\\20250610120618_Addquestionmarks.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\Migrations\\20250610120618_Addquestionmarks.cs",
+              "RelativeToolTip": "DietWeb.Data\\Migrations\\20250610120618_Addquestionmarks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T12:06:18.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20250610115933_Addquestionmark.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\Migrations\\20250610115933_Addquestionmark.cs",
+              "RelativeDocumentMoniker": "DietWeb.Data\\Migrations\\20250610115933_Addquestionmark.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\Migrations\\20250610115933_Addquestionmark.cs",
+              "RelativeToolTip": "DietWeb.Data\\Migrations\\20250610115933_Addquestionmark.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T11:59:33.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20250610115316_AddHashedPasswordColumnToUser.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\Migrations\\20250610115316_AddHashedPasswordColumnToUser.cs",
+              "RelativeDocumentMoniker": "DietWeb.Data\\Migrations\\20250610115316_AddHashedPasswordColumnToUser.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\Migrations\\20250610115316_AddHashedPasswordColumnToUser.cs",
+              "RelativeToolTip": "DietWeb.Data\\Migrations\\20250610115316_AddHashedPasswordColumnToUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T11:53:16.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FoodRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\Repositories\\FoodRepository.cs",
+              "RelativeDocumentMoniker": "DietWeb.Data\\Repositories\\FoodRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\Repositories\\FoodRepository.cs",
+              "RelativeToolTip": "DietWeb.Data\\Repositories\\FoodRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T20:53:16.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "DietWeb.Service\\AuthService.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Service\\AuthService.cs",
+              "RelativeToolTip": "DietWeb.Service\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T09:47:28.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DietWeb.Service.csproj",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Service\\DietWeb.Service.csproj",
+              "RelativeDocumentMoniker": "DietWeb.Service\\DietWeb.Service.csproj",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Service\\DietWeb.Service.csproj",
+              "RelativeToolTip": "DietWeb.Service\\DietWeb.Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-10T09:46:19.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DietWeb.API.csproj",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\DietWeb.API.csproj",
+              "RelativeDocumentMoniker": "DietWeb\\DietWeb.API.csproj",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\DietWeb.API.csproj",
+              "RelativeToolTip": "DietWeb\\DietWeb.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-10T09:26:54.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Core\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "DietWeb.Core\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Core\\Services\\IAuthService.cs",
+              "RelativeToolTip": "DietWeb.Core\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T09:40:15.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DietWeb.API",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\DietWeb.API.csproj",
+              "RelativeDocumentMoniker": "DietWeb\\DietWeb.API.csproj",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\DietWeb.API.csproj",
+              "RelativeToolTip": "DietWeb\\DietWeb.API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-10T09:27:03.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FoodService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Service\\FoodService.cs",
+              "RelativeDocumentMoniker": "DietWeb.Service\\FoodService.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Service\\FoodService.cs",
+              "RelativeToolTip": "DietWeb.Service\\FoodService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:52:34.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "DietWeb.Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\DataContext.cs",
+              "RelativeToolTip": "DietWeb.Data\\DataContext.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T20:44:30.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "WeightTracing.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Core\\Models\\WeightTracing.cs",
+              "RelativeDocumentMoniker": "DietWeb.Core\\Models\\WeightTracing.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Core\\Models\\WeightTracing.cs",
+              "RelativeToolTip": "DietWeb.Core\\Models\\WeightTracing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:13:26.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IFoodRepositoy.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Core\\Repositories\\IFoodRepositoy.cs",
+              "RelativeDocumentMoniker": "DietWeb.Core\\Repositories\\IFoodRepositoy.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Core\\Repositories\\IFoodRepositoy.cs",
+              "RelativeToolTip": "DietWeb.Core\\Repositories\\IFoodRepositoy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:13:30.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DietWeb.Data.csproj",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\DietWeb.Data.csproj",
+              "RelativeDocumentMoniker": "DietWeb.Data\\DietWeb.Data.csproj",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\DietWeb.Data.csproj",
+              "RelativeToolTip": "DietWeb.Data\\DietWeb.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-21T22:13:33.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IFoodService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Core\\Services\\IFoodService.cs",
+              "RelativeDocumentMoniker": "DietWeb.Core\\Services\\IFoodService.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Core\\Services\\IFoodService.cs",
+              "RelativeToolTip": "DietWeb.Core\\Services\\IFoodService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T20:40:35.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DataContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\Migrations\\DataContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "DietWeb.Data\\Migrations\\DataContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\Migrations\\DataContextModelSnapshot.cs",
+              "RelativeToolTip": "DietWeb.Data\\Migrations\\DataContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAACBjwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:13:44.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Core\\Models\\Recipe.cs",
+              "RelativeDocumentMoniker": "DietWeb.Core\\Models\\Recipe.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Core\\Models\\Recipe.cs",
+              "RelativeToolTip": "DietWeb.Core\\Models\\Recipe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:13:22.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Food.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Core\\Models\\Food.cs",
+              "RelativeDocumentMoniker": "DietWeb.Core\\Models\\Food.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Core\\Models\\Food.cs",
+              "RelativeToolTip": "DietWeb.Core\\Models\\Food.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:13:18.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250521103843_startdb.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\Migrations\\20250521103843_startdb.cs",
+              "RelativeDocumentMoniker": "DietWeb.Data\\Migrations\\20250521103843_startdb.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb.Data\\Migrations\\20250521103843_startdb.cs",
+              "RelativeToolTip": "DietWeb.Data\\Migrations\\20250521103843_startdb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T10:38:44.403Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:96934293:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
