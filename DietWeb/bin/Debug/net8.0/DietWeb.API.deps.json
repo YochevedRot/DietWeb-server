@@ -840,6 +840,33 @@
           "Microsoft.Packaging.Tools": "1.0.0-preview1-25301-01"
         }
       },
+      "Newtonsoft.Json/13.0.2": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.2.27524"
+          }
+        }
+      },
+      "OpenAI-DotNet/8.6.4": {
+        "runtime": {
+          "lib/net8.0/OpenAI-DotNet.dll": {
+            "assemblyVersion": "8.6.4.0",
+            "fileVersion": "8.6.4.0"
+          }
+        }
+      },
+      "OpenAIApi/1.0.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.1/OpenAI.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.6.2": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
@@ -1124,9 +1151,12 @@
         "dependencies": {
           "BCrypt.Net-Next": "4.0.3",
           "DietWeb.Core": "1.0.0",
+          "DietWeb.Data": "1.0.0",
           "Microsoft.Extensions.Configuration": "9.0.5",
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.5",
           "Microsoft.IdentityModel.Tokens": "8.12.0",
+          "OpenAI-DotNet": "8.6.4",
+          "OpenAIApi": "1.0.1",
           "System.IdentityModel.Tokens.Jwt": "8.12.0"
         },
         "runtime": {
@@ -1507,6 +1537,27 @@
       "sha512": "sha512-JgI5IsPMAkYqYeahc+T1G20qqE2qu/P0ZyW2GUPUxxfiT2nQGNDDPq9KHCPUODA3AMSHOp1Vnp6Sxa6jgVYfkg==",
       "path": "netstandard.library/2.0.0-preview1-25301-01",
       "hashPath": "netstandard.library.2.0.0-preview1-25301-01.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
+      "path": "newtonsoft.json/13.0.2",
+      "hashPath": "newtonsoft.json.13.0.2.nupkg.sha512"
+    },
+    "OpenAI-DotNet/8.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UCv4mwyvF7+utHwmkrzUGqkeKEBswW4Qh4v6D1tcjWFbPzrPrnHpNmEBy7bL0lDlpU/A3X4rXmT9OHXLu+uskA==",
+      "path": "openai-dotnet/8.6.4",
+      "hashPath": "openai-dotnet.8.6.4.nupkg.sha512"
+    },
+    "OpenAIApi/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ToQdvT8+TLLfRZNoTuXXN1xRQlKrstCO4Rh1LY0IaGUrj1l3t52kX1z097irXwS4M/tmiUr0VzAyEElazFxzLQ==",
+      "path": "openaiapi/1.0.1",
+      "hashPath": "openaiapi.1.0.1.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.6.2": {
       "type": "package",

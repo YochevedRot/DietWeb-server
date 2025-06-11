@@ -127,6 +127,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "PersonalTrainerController",
+    "Method": "AskTrainer",
+    "RelativePath": "api/PersonalTrainer/ask",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DietWeb.Core.Models.TrainerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalTrainerController",
+    "Method": "GetHistory",
+    "RelativePath": "api/PersonalTrainer/history/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "RecipeController",
     "Method": "GetAll",
     "RelativePath": "api/Recipe",

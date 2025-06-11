@@ -12,6 +12,7 @@ namespace DietWeb.Data
         public DbSet<Food> Foods { get; set; }
         public DbSet<Recipe> Recipes { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<ConversationMessage> Messages { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

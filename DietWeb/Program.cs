@@ -37,6 +37,9 @@ builder.Services.AddScoped<IRecipeRepository, RecipeRepository>();
 builder.Services.AddScoped<IRecipeService, RecipeService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IPersonalTrainerService, PersonalTrainerService>();
+builder.Services.AddScoped<IConversationRepository, ConversationRepository>();
+
 builder.Services.AddScoped<IAuthService, AuthService>(); // *** הוספה חדשה זו ***
 
 //builder.Services.AddDbContext<DataContext>();

@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 using DietWeb.Core.Models;
 using DietWeb.Core.Repositories;
 using DietWeb.Core.Services;
-using DietWeb.Core.Services;
+
 
 namespace DietWeb.Service
 {
     public class UserService : IUserService
     {
         private readonly IUserRepository _repository;
+        
 
         public UserService(IUserRepository repository)
         {

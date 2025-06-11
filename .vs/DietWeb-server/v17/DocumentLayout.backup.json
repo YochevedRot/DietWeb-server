@@ -75,19 +75,8 @@
               "RelativeToolTip": "DietWeb\\Program.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAqwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T12:57:35.089Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\appsettings.json",
-              "RelativeDocumentMoniker": "DietWeb\\appsettings.json",
-              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\appsettings.json",
-              "RelativeToolTip": "DietWeb\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-21T12:57:22.764Z"
+              "WhenOpened": "2025-05-21T12:57:35.089Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -99,7 +88,8 @@
               "RelativeToolTip": "DietWeb\\DietWeb.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-21T17:01:05.254Z"
+              "WhenOpened": "2025-05-21T17:01:05.254Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -123,7 +113,8 @@
               "RelativeToolTip": "DietWeb.Data\\DataContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T17:03:51.925Z"
+              "WhenOpened": "2025-05-25T17:03:51.925Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -136,6 +127,35 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
               "WhenOpened": "2025-05-21T16:40:03.186Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DietWeb.http",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\DietWeb.http",
+              "RelativeDocumentMoniker": "DietWeb\\DietWeb.http",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\DietWeb.http",
+              "RelativeToolTip": "DietWeb\\DietWeb.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-21T17:01:21.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "DietWeb\\appsettings.json",
+              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\appsettings.json",
+              "RelativeToolTip": "DietWeb\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-21T12:57:22.764Z"
             },
             {
               "$type": "Document",
@@ -151,18 +171,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DietWeb.http",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\DietWeb.http",
-              "RelativeDocumentMoniker": "DietWeb\\DietWeb.http",
-              "ToolTip": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\DietWeb.http",
-              "RelativeToolTip": "DietWeb\\DietWeb.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-05-21T17:01:21.845Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\DietWeb-server\\DietWeb\\Properties\\launchSettings.json",
@@ -172,10 +180,6 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-21T16:40:08.909Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
