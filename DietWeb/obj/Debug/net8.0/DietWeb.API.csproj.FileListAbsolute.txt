@@ -376,3 +376,4 @@ C:\Users\משתמש\Desktop\DietWeb-server\DietWeb-server\DietWeb\obj\Debug\net8
 C:\Users\משתמש\Desktop\DietWeb-server\DietWeb-server\DietWeb\obj\Debug\net8.0\DietWeb..5497675F.Up2Date
 C:\Users\משתמש\Desktop\DietWeb-server\DietWeb-server\DietWeb\obj\Debug\net8.0\DietWeb.API.genruntimeconfig.cache
 C:\Users\משתמש\Desktop\DietWeb-server\DietWeb-server\DietWeb\obj\Debug\net8.0\ref\DietWeb.API.dll
+C:\Users\משתמש\Desktop\DietWeb-server\DietWeb-server\DietWeb\bin\Debug\net8.0\SlackAPI.dll

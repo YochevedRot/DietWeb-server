@@ -10,6 +10,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using BCrypt.Net;
+using DietWeb.API.DTOs;
 
 
 namespace DietWeb.Service
@@ -78,6 +79,26 @@ namespace DietWeb.Service
                 signingCredentials: credentials);
 
             return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+
+        public async Task<LoginResponse?> LoginAsync(string username, string password)
+        {
+            var user = await _userRepository.GetUserByUsername(username);
+            if (user == null)
+                return null;
+
+            bool isValid = BCrypt.Net.BCrypt.Verify(password, user.HashedPassword);
+            if (!isValid)
+                return null;
+
+            // Optional token generation
+            string token = "fake-jwt-token"; // Replace with real token generation if needed
+
+            return new LoginResponse
+            {
+                UserId = user.Id,
+                Token = token
+            };
         }
     }
 }

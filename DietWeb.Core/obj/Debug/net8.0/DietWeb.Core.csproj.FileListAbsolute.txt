@@ -22,3 +22,4 @@ C:\Users\משתמש\Desktop\DietWeb-server\DietWeb-server\DietWeb.Core\obj\Debug
 C:\Users\משתמש\Desktop\DietWeb-server\DietWeb-server\DietWeb.Core\obj\Debug\net8.0\refint\DietWeb.Core.dll
 C:\Users\משתמש\Desktop\DietWeb-server\DietWeb-server\DietWeb.Core\obj\Debug\net8.0\DietWeb.Core.pdb
 C:\Users\משתמש\Desktop\DietWeb-server\DietWeb-server\DietWeb.Core\obj\Debug\net8.0\ref\DietWeb.Core.dll
+C:\Users\משתמש\Desktop\DietWeb-server\DietWeb-server\DietWeb.Core\obj\Debug\net8.0\DietWeb.Core.csproj.AssemblyReference.cache

@@ -65,6 +65,6 @@ public class AuthController : ControllerBase
 
         var token = _authService.GenerateJwtToken(user);
 
-        return Ok(new { Token = token });
+        return Ok(Response);
     }
 }
