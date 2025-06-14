@@ -425,7 +425,7 @@
           }
         }
       },
-      "put": {
+      "patch": {
         "tags": [
           "User"
         ],
@@ -444,42 +444,21 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/UpdateUserDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/UpdateUserDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/UpdateUserDto"
               }
             }
           }
         },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "delete": {
-        "tags": [
-          "User"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -506,8 +485,11 @@
             "nullable": true
           },
           "like": {
-            "type": "integer",
-            "format": "int32"
+            "type": "string",
+            "nullable": true
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
           }
         },
         "additionalProperties": false
@@ -624,6 +606,33 @@
         },
         "additionalProperties": false
       },
+      "UpdateUserDto": {
+        "type": "object",
+        "properties": {
+          "startWeight": {
+            "type": "number",
+            "format": "float",
+            "nullable": true
+          },
+          "height": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "chatPersonality": {
+            "type": "string",
+            "nullable": true
+          },
+          "dietaryPreferences": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DietaryPreference"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "User": {
         "type": "object",
         "properties": {
@@ -662,6 +671,10 @@
             "format": "int32",
             "nullable": true
           },
+          "height": {
+            "type": "integer",
+            "format": "int32"
+          },
           "startWeight": {
             "type": "number",
             "format": "float",
@@ -685,8 +698,12 @@
           "weightTracing": {
             "$ref": "#/components/schemas/WeightTracing"
           },
-          "dietaryPreference": {
-            "$ref": "#/components/schemas/DietaryPreference"
+          "dietaryPreferences": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DietaryPreference"
+            },
+            "nullable": true
           },
           "chatPersonality": {
             "type": "string",

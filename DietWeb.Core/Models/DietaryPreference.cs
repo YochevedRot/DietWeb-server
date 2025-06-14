@@ -11,7 +11,9 @@ namespace DietWeb.Core.Models
         public int Id { get; set; }
         public int UserId { get; set; }
         public string FoodName { get; set; } = "";
-        public int Like { get; set; }
+        public string Like { get; set; } = "";
+        public User User { get; set; }
+
 
     }
 }

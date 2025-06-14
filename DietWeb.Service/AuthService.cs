@@ -63,13 +63,13 @@ namespace DietWeb.Service
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
-            var claims = new[]
-            {
-                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()), // מזהה ייחודי של המשתמש
-                new Claim(ClaimTypes.Name, user.Username), // שם המשתמש
-                // ניתן להוסיף Claims נוספים כמו תפקידים (roles) במידה ויש:
-                // new Claim(ClaimTypes.Role, "Admin"),
-            };
+            var claims = new List<Claim>
+{
+    new Claim("userId", user.Id.ToString()),
+    new Claim("username", user.Username),
+    new Claim("email", user.Email),
+};
+
 
             var token = new JwtSecurityToken(
                 _configuration["Jwt:Issuer"],
