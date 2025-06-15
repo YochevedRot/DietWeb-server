@@ -58,7 +58,7 @@ namespace DietWeb.Service
 
             var messages = new List<Message>
         {
-            new(Role.System, $"You are a personal trainer with this personality: {personality}"),
+            new(Role.System, $"אתה מאמן תזונה יש לענות תשובות על פי האופי : {personality}"),
             new(Role.System, "אתה עוזר אישי לתזונה בלבד. תענה רק על שאלות שקשורות לתזונה, הרגלי אכילה, ליווי תזונתי ובריאות הקשורה לתזונה. אל תענה על שאלות שאינן קשורות לתחום זה."),
 
         };
