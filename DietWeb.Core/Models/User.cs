@@ -11,11 +11,12 @@ public class User
     public DateTime? BirthDate { get; set; }
     public int? ProgramLevel { get; set; }
     public int Height { get; set; }
+    public float currentWeight { get; set; }
     public float? StartWeight { get; set; }
     public float? GoalWeight { get; set; }
     public DateTime? GoalDate { get; set; }
     public DateTime? StartDate { get; set; }
-    public WeightTracing? weightTracing { get; set; }
+    public WeightTracing? WeightTracing { get; set; }
     public List<DietaryPreference> DietaryPreferences { get; set; } = new();
     public string? ChatPersonality { get; set; }
 }

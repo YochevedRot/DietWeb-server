@@ -5,6 +5,8 @@ namespace DietWeb.API.DTOs
     public class UpdateUserDto
     {
         public float? StartWeight { get; set; }
+        public float? CurrentWeight { get; set; }
+        public float? GoalWeight { get; set; }
         public int? Height { get; set; }
         public string? ChatPersonality { get; set; }
         public List<DietaryPreference>? DietaryPreferences { get; set; }

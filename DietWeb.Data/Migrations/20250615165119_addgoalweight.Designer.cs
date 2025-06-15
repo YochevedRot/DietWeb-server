@@ -4,6 +4,7 @@ using DietWeb.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DietWeb.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20250615165119_addgoalweight")]
+    partial class addgoalweight
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -210,9 +213,6 @@ namespace DietWeb.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<float>("currentWeight")
-                        .HasColumnType("real");
-
                     b.HasKey("Id");
 
                     b.ToTable("Users");
@@ -232,7 +232,7 @@ namespace DietWeb.Data.Migrations
             modelBuilder.Entity("DietWeb.Core.Models.WeightTracing", b =>
                 {
                     b.HasOne("User", null)
-                        .WithOne("WeightTracing")
+                        .WithOne("weightTracing")
                         .HasForeignKey("DietWeb.Core.Models.WeightTracing", "UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -242,7 +242,7 @@ namespace DietWeb.Data.Migrations
                 {
                     b.Navigation("DietaryPreferences");
 
-                    b.Navigation("WeightTracing");
+                    b.Navigation("weightTracing");
                 });
 #pragma warning restore 612, 618
         }

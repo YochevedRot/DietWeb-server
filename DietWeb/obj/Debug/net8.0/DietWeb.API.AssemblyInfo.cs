@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DietWeb.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16a70466bfa3b15baa42aab30e006493b27cf107")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e989ef3f376e66998d1cf8fca6ce106a92e50c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("DietWeb.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DietWeb.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

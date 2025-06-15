@@ -64,11 +64,19 @@ public class UserController : ControllerBase
         if (user == null) return NotFound();
 
         // ✅ עדכון שדות בסיסיים
-        if (update.StartWeight.HasValue)
-            user.StartWeight = update.StartWeight.Value;
+        if (update.CurrentWeight.HasValue)
+        {
+            if (user.StartWeight == null)
+                user.StartWeight = update.CurrentWeight.Value;
+
+            user.currentWeight = update.CurrentWeight.Value;
+        }
 
         if (update.Height.HasValue)
             user.Height = update.Height.Value;
+
+        if (update.GoalWeight.HasValue)
+            user.GoalWeight = update.GoalWeight.Value;
 
         if (!string.IsNullOrEmpty(update.ChatPersonality))
             user.ChatPersonality = update.ChatPersonality;

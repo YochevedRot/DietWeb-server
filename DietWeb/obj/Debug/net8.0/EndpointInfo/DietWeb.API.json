@@ -614,6 +614,16 @@
             "format": "float",
             "nullable": true
           },
+          "currentWeight": {
+            "type": "number",
+            "format": "float",
+            "nullable": true
+          },
+          "goalWeight": {
+            "type": "number",
+            "format": "float",
+            "nullable": true
+          },
           "height": {
             "type": "integer",
             "format": "int32",
@@ -674,6 +684,10 @@
           "height": {
             "type": "integer",
             "format": "int32"
+          },
+          "currentWeight": {
+            "type": "number",
+            "format": "float"
           },
           "startWeight": {
             "type": "number",
