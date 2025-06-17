@@ -9,7 +9,8 @@ namespace DietWeb.API.DTOs
         public float? GoalWeight { get; set; }
         public int? Height { get; set; }
         public string? ChatPersonality { get; set; }
-        public List<DietaryPreference>? DietaryPreferences { get; set; }
+        public string? ProgramLevel { get; set; }
+        public List<DietaryPreferenceDto>? DietaryPreferences { get; set; }
     }
 
 }

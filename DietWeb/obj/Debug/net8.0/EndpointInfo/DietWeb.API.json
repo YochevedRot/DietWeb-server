@@ -443,19 +443,13 @@
         "requestBody": {
           "content": {
             "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UpdateUserDto"
-              }
+              "schema": { }
             },
             "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UpdateUserDto"
-              }
+              "schema": { }
             },
             "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/UpdateUserDto"
-              }
+              "schema": { }
             }
           }
         },
@@ -469,31 +463,6 @@
   },
   "components": {
     "schemas": {
-      "DietaryPreference": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "userId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "foodName": {
-            "type": "string",
-            "nullable": true
-          },
-          "like": {
-            "type": "string",
-            "nullable": true
-          },
-          "user": {
-            "$ref": "#/components/schemas/User"
-          }
-        },
-        "additionalProperties": false
-      },
       "Food": {
         "type": "object",
         "properties": {
@@ -602,148 +571,6 @@
           "input": {
             "type": "string",
             "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "UpdateUserDto": {
-        "type": "object",
-        "properties": {
-          "startWeight": {
-            "type": "number",
-            "format": "float",
-            "nullable": true
-          },
-          "currentWeight": {
-            "type": "number",
-            "format": "float",
-            "nullable": true
-          },
-          "goalWeight": {
-            "type": "number",
-            "format": "float",
-            "nullable": true
-          },
-          "height": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "chatPersonality": {
-            "type": "string",
-            "nullable": true
-          },
-          "dietaryPreferences": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/DietaryPreference"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "User": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "username": {
-            "type": "string",
-            "nullable": true
-          },
-          "hashedPassword": {
-            "type": "string",
-            "nullable": true
-          },
-          "email": {
-            "type": "string",
-            "nullable": true
-          },
-          "phone": {
-            "type": "string",
-            "nullable": true
-          },
-          "gender": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "birthDate": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "programLevel": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "height": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "currentWeight": {
-            "type": "number",
-            "format": "float"
-          },
-          "startWeight": {
-            "type": "number",
-            "format": "float",
-            "nullable": true
-          },
-          "goalWeight": {
-            "type": "number",
-            "format": "float",
-            "nullable": true
-          },
-          "goalDate": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "startDate": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "weightTracing": {
-            "$ref": "#/components/schemas/WeightTracing"
-          },
-          "dietaryPreferences": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/DietaryPreference"
-            },
-            "nullable": true
-          },
-          "chatPersonality": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "WeightTracing": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "userId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "weight": {
-            "type": "number",
-            "format": "float"
-          },
-          "date": {
-            "type": "string",
-            "format": "date-time"
           }
         },
         "additionalProperties": false

@@ -19,6 +19,17 @@ namespace DietWeb.Data
             optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=_db");
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            // הגדרת קשר 1 ל־רבים בין User ל־DietaryPreference
+            modelBuilder.Entity<User>()
+                .HasMany(u => u.DietaryPreferences)
+                .WithOne(dp => dp.User)
+                .HasForeignKey(dp => dp.UserId)
+                .OnDelete(DeleteBehavior.Cascade); // אפשר גם Restrict אם לא רוצים מחיקה אוטומטית
+        }
+
+
         // ----------------------------------------------------
         // התיקון כאן: הסר את הפונקציה הזו וסמוך על היישום המובנה של DbContext.
         // או, אם אתה חייב override, קרא ליישום הבסיס.

@@ -15,8 +15,12 @@ namespace DietWeb.Data.Repositories
 
         public async Task<IEnumerable<User>> GetAllAsync() => await _context.Users.ToListAsync();
 
-        public async Task<User?> GetByIdAsync(int id) => await _context.Users.FindAsync(id);
-
+        public async Task<User?> GetByIdAsync(int id)
+        {
+            return await _context.Users
+                .Include(u => u.DietaryPreferences) // ← כאן הפואנטה
+                .FirstOrDefaultAsync(u => u.Id == id);
+        }
         public async Task<User> AddAsync(User user)
         {
             _context.Users.Add(user);
@@ -26,8 +30,36 @@ namespace DietWeb.Data.Repositories
 
         public async Task UpdateAsync(User user)
         {
-            _context.Entry(user).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
+            var existingUser = await _context.Users
+                .Include(u => u.DietaryPreferences)
+                .FirstOrDefaultAsync(u => u.Id == user.Id);
+
+            if (existingUser == null) return;
+
+            // ✅ עדכון שדות רגילים ידנית
+            existingUser.currentWeight = user.currentWeight;
+            existingUser.GoalWeight = user.GoalWeight;
+            existingUser.Height = user.Height;
+            existingUser.ChatPersonality = user.ChatPersonality;
+            existingUser.ProgramLevel = user.ProgramLevel;
+
+            // ✅ עדכון העדפות תזונתיות
+            if (user.DietaryPreferences != null)
+            {
+                existingUser?.DietaryPreferences?.Clear();
+
+                foreach (var pref in user.DietaryPreferences)
+                {
+                    existingUser?.DietaryPreferences?.Add(new DietaryPreference
+                    {
+                        FoodName = pref.FoodName,
+                        Like = pref.Like,
+                        UserId = pref.UserId
+                    });
+                }
+            }
+
+            await _context.SaveChangesAsync(); // ✅ שמירה בפועל
         }
 
         public async Task DeleteAsync(int id)

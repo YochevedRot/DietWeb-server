@@ -9,7 +9,7 @@ public class User
     public string ? Phone { get; set; }
     public int? Gender  { get; set; }
     public DateTime? BirthDate { get; set; }
-    public int? ProgramLevel { get; set; }
+    public string? ProgramLevel { get; set; } 
     public int Height { get; set; }
     public float currentWeight { get; set; }
     public float? StartWeight { get; set; }
@@ -17,6 +17,6 @@ public class User
     public DateTime? GoalDate { get; set; }
     public DateTime? StartDate { get; set; }
     public WeightTracing? WeightTracing { get; set; }
-    public List<DietaryPreference> DietaryPreferences { get; set; } = new();
+    public List<DietaryPreference>? DietaryPreferences { get; set; } = new();
     public string? ChatPersonality { get; set; }
 }

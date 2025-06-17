@@ -197,8 +197,8 @@ namespace DietWeb.Data.Migrations
                     b.Property<string>("Phone")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("ProgramLevel")
-                        .HasColumnType("int");
+                    b.Property<string>("ProgramLevel")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("StartDate")
                         .HasColumnType("datetime2");

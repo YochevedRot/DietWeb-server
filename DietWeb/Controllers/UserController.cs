@@ -1,4 +1,5 @@
-﻿using DietWeb.API.DTOs;
+﻿using System.Text.Json;
+using DietWeb.API.DTOs;
 using DietWeb.Core.Models;
 using DietWeb.Core.Services;
 using Microsoft.AspNetCore.Authorization;
@@ -58,8 +59,10 @@ public class UserController : ControllerBase
 
     [HttpPatch("{id}")]
     [Authorize]
-    public async Task<IActionResult> PartialUpdate(int id, UpdateUserDto update)
+    public async Task<IActionResult> PartialUpdate(int id, [FromBody] UpdateUserDto update)
     {
+        Console.WriteLine("📥 Payload שהתקבל:");
+        Console.WriteLine(JsonSerializer.Serialize(update));
         var user = await _service.GetByIdAsync(id);
         if (user == null) return NotFound();
 
@@ -78,19 +81,31 @@ public class UserController : ControllerBase
         if (update.GoalWeight.HasValue)
             user.GoalWeight = update.GoalWeight.Value;
 
+        if (!string.IsNullOrEmpty(update.ProgramLevel))
+            user.ProgramLevel = update.ProgramLevel;
+
         if (!string.IsNullOrEmpty(update.ChatPersonality))
             user.ChatPersonality = update.ChatPersonality;
 
-        // ✅ עדכון/הוספה של ההעדפות התזונתיות
+        // ✅ עדכון/החלפה של העדפות תזונה
         if (update.DietaryPreferences != null)
         {
-            user.DietaryPreferences.Clear(); // אופציונלי
+            // ודא שרשימת ההעדפות מאותחלת
+            if (user.DietaryPreferences == null)
+                user.DietaryPreferences = new List<DietaryPreference>();
+            else
+                user.DietaryPreferences.Clear(); // איפוס לפני עדכון
 
-            foreach (var pref in update.DietaryPreferences)
+            // הכנסת רק פריטים ייחודיים לפי שם המאכל
+            var uniquePreferences = update.DietaryPreferences
+                .GroupBy(p => p.FoodName)
+                .Select(g => g.First());
+
+            foreach (var pref in uniquePreferences)
             {
                 user.DietaryPreferences.Add(new DietaryPreference
                 {
-                    UserId = user.Id,
+                    UserId = pref.UserId,
                     FoodName = pref.FoodName,
                     Like = pref.Like
                 });
@@ -98,7 +113,7 @@ public class UserController : ControllerBase
         }
 
         await _service.UpdateAsync(user);
-        return NoContent();
+        return Ok(update);
     }
 
 
